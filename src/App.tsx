@@ -16,6 +16,7 @@ import './App.css';
 export default function App() {
   return (
       <AnimatedTree data={data} height={500} width={900} />
+      hi
   );
 }
  // export default App;
