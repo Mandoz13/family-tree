@@ -1,53 +1,34 @@
 export default {
-    name: 'Colour',
-	children: [{
-        name: 'Black',
+
+    id: 1231239887112,
+    name: "Sally + Billy",
+    gender: "male",
+    children: [{
+        name: 'Suzie + Sam',
         pathProps: 'black',
-		children: []
-	}, {
-		name: 'Blue',
-		children: [{
-			name: 'Aquamarine',
-			children: []
-		}, {
-			name: 'Cyan',
-			children: []
-		}, {
-			name: 'Navy',
-			children: []
-		}, {
-			name: 'Turquoise',
-			children: []
-		}]
-	}, {
-		name: 'Green',
-		children: []
-	}, {
-		name: 'Purple',
-		children: [{
-			name: 'Indigo',
-			children: []
-		}, {
-			name: 'Violet',
-			children: []
-		}]
-	}, {
-		name: 'Red',
-		children: [{
-			name: 'Crimson',
-			children: []
-		}, {
-			name: 'Maroon',
-			children: []
-		}, {
-			name: 'Scarlet',
-			children: []
-		}]
-	}, {
-		name: 'White',
-		children: []
-	}, {
-		name: 'Yellow',
-		children: []
-	}]
+              children: [{
+                  name: 'Josh + Sarah',
+                  children: [{
+                      name: 'Jim + Clara',
+                      children: [{
+                           name: 'Joe',
+                           children: []
+                      }]
+                 }]
+               },{
+                 name: 'Charlie + Jessie',
+                 children: [{
+                     name: 'Bob',
+                     children: []
+              }]
+          }]
+      },{
+        name: 'Ricky',
+      	children: []
+        },
+        {
+        name: 'Julian',
+        children: []
+    }]
+
 }
